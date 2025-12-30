@@ -1,0 +1,47 @@
+# 字节编译
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 输出文件
+output/
+*.xlsx
+*.csv
+*.log
+
+# Selenium WebDriver
+drivers/
+chromedriver
+chromedriver.exe
+edgedriver
+msedgedriver.exe
+
+# 测试和覆盖率
+.pytest_cache/
+htmlcov/
+.coverage
+*.cover
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 临时文件
+*.tmp
+temp/
